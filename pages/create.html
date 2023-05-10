@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Producto | Funkoshop</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html"><img src="../img/branding/logo_light_horizontal.svg" alt="Logotipo"></a>
+            <ul>
+                <li><a href="./pages/shop.html">SHOP</a></li>
+                <li><a href="./pages/contacto.html">CONTACTO</a></li>
+                <li><a href="./pages/login.html">LOGIN</a></li>
+                <li><a href="./pages/cart.html"><img src="../img/icons/cart-icon.svg" alt="Carrito"></a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <sect>
+            <h1>CREAR NUEVO ITEM</h1>
+            <form action="post">
+                <ul>
+                    <li>
+                        <label for="categoria">Categoría: </label>
+                        <select name="categoria" id="categoria">
+                            <option value="fig">Figuras</option>
+                            <option value="ot">Otro</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="licencia">Licencia: </label>
+                        <select name="licencia" id="licencia">
+                            <option value="ns">Naruto Shippuden</option>
+                            <option value="sw">Star Wars</option>
+                            <option value="po">Pokemon</option>
+                            <option value="hp">Harry Potter</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="nombre">Nombre del producto: </label>
+                        <input type="text" name="nombre">
+                    </li>
+                    <li>
+                        <input type="text" name="btn" value="Descripción del producto">
+                    </li>
+                    <li>
+                        <label for="SKU">SKU: </label>
+                        <input type="text" name="SKU">
+                        <label for="precio">Precio: </label>
+                        <input type="number" name="precio">
+                        <label for="stock">Stock: </label>
+                        <input type="number" name="stock">
+                    </li>
+                    <li>
+                        <label for="descuento" ></label>
+                        <input type="number" name="descuento">
+                        <label for="cuotas">Cuotas: </label>
+                        <select name="cuotas" id="cuotas">
+                            <option value="6">6 Cuotas sin interés</option>
+                            <option value="3">3 Cuotas sin interés</option>
+                            <option value="2">2 Cuotas sin interés</option>
+                        </select>
+                    </li>
+                    <li>
+                        <label for="imagen">Imágenes:</label>
+                        <input type="file" name="imagen">
+                    </li>
+                    <li>
+                        <input type="button" value="Agregar Producto">
+                        <input type="button" value="Limpiar">
+                    </li>
+                </ul>
+            </form>
+        </sect>
+    </main>
+    <footer>
+        <section>
+            <nav>
+                <ul>
+                    <li><a href="">SHOP</a></li>
+                    <li><a href="">REGISTRARSE</a></li>
+                    <li><a href="">INGRESAR</a></li>
+                    <li><a href="">CONTACTO</a></li>
+                </ul>
+                <picture>
+                    <img src="../img/branding/isotype.svg" alt="Logo">
+                </picture>
+            </nav>
+        </section>
+        <p>All rights reserved 2022 - Funkoshop &copy;</p>
+    </footer>
+</body>
+</html>
